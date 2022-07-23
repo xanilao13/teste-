@@ -1,0 +1,226 @@
+/* Tags padrão */
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(img\fundo_site.png) left top repeat;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1em;
+}
+
+form {
+	border: 1px solid whitesmoke;
+	border-radius: 0.1em;
+	padding: 0.1em;
+}
+
+form input, form botton {
+	font-size: 1.2em;
+	border-radius: 0.2em;
+	border: none;
+	padding: 0.2em;
+}
+
+form botton {
+	cursor: pointer;
+	background: none;
+	color: whitesmoke;
+}
+
+p {
+	font-family: "tahoma", Arial, sans-serif;
+}
+
+h2 {
+	font-family: "tahoma", Arial, sans-serif;
+	font-size: 24px;
+	margin-top: 0px;
+	padding-top: 5px;
+	color: #283848
+}
+
+h3 `{
+	margin: 0 auto;
+	padding:0;
+	font-family: "tahoma", Arial, sans-serif;
+	color: #283848;
+}
+
+body ul {
+	font-style: italic;
+	font-size: 16px;
+	
+}
+
+a:link {
+	text-decoration: none;
+	color: #283848;
+	
+}
+
+a:visited `{
+	color: #283848;
+	font-style: normal;
+}
+
+a:active {
+	text-decoration: inderline;
+}
+
+/* cabeçalho */
+
+header {
+	background-color: #00B2EE;
+	height: 62px;
+	box-shadow: 3px 3px 6px #001d44;
+}
+
+#logo {
+	margin-left: 5px;
+	float:left;
+	padding-top: 3px;
+}
+
+.menu {
+	margin: 0 auto;
+	list-style: none;
+	float: right;
+	font-style: normal;
+}
+
+.menu li {
+	position: relative;
+	float: left;
+	margin: 21px 10px 21px 10px;
+}
+
+.menu li a {
+	color: #283848;
+	text-decoration: none;
+	padding: 5px 10px;
+	display: block;
+}
+
+.menu li a:hover {
+	background: #009ACD;
+	text-shadow: 0 0 5px #fff;
+}
+
+.menu li ul {
+	position: absolute;
+	top: 25px;
+	left: 0;
+	background-color: #eae9e8;
+	z-index: 10;
+	display: none;
+	padding: 0;
+	box-shadow: 3px 3px 6px #001d44;
+	border: solid 3px #6A5ACD;
+}
+
+.menu li ul li {
+	margin: 0;
+	display: block;
+	width: 150px;
+	font-style: italic;
+	color: #6A5ACD;
+}
+
+.menu li ul li:hover {
+	margin: 0;
+}
+
+.menu li ul li:hover ul {
+	display: block;
+}
+
+/* Corpo da Página */
+
+/* Barra Lateral */
+
+#trabalhos {
+	width: 300px;
+	float: right;
+	margin: 0 auto;
+	margin-top: -800px;
+	padding: 0;
+}
+
+#trabalhos aside {
+	margin: 0 auto;
+	padding-top: 7px;
+}
+
+#trabalhos aside img {
+	margin: 8px 0 8px 0;
+	opacity: 1;
+	transition: opacity 0.4s ease-out;
+	transform: .04s ease-out;
+}
+
+#trabalhos aside img:hover {
+
+}
+
+/* Corpo da Página */
+
+.menu li:hover ul {
+	display: block;
+}
+
+/* rodapé */
+
+footer {
+	background-color:#B5B5B5;
+	width: 90%;
+	min-width: 972px;
+	height: 70px;
+	color: #000000;
+	position: relative;
+	bottom: 0;
+	padding: 5px 0 10px 0;
+}
+
+footer ul {
+	list-style: none;
+	width: 500px;
+	height: 18px;
+	margin: 0 auto;
+	padding: 0;
+	font-style: normal;
+}
+
+footer ul li {
+	float: left;
+	position: relative;
+	padding: 2px 15px 2px 15px;
+}
+
+footer ul li:hover {
+	background-color: #ffff;
+}
+
+#copyright {
+	margin: 1 auto;
+	font-size: 11px;
+	width: 240px;
+}
+
+address {
+	font-size: 14px;
+	padding: 2px 0 2px 0;
+	line-height: 100%;
+	width: 300px;
+	margin: 0 auto;
+}
+
+#rodape {
+	width: 1000px;
+	margin: 0 auto;
+}
